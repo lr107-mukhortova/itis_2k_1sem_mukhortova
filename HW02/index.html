@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="windows-1251">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>hello page</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Exo+2&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/styleSlider.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js" integrity="sha512-wV7Yj1alIZDqZFCUQJy85VN+qvEIly93fIQAN7iqDFCPEucLCeNFz4r35FCo9s6WrpdDQPi80xbljXB8Bjtvcg==" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS с CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="top-panel-absolute" style="height: 7%; background-color: black; opacity: 0.8;">
+	<div class="top-panel-inner">
+        <div class="button_class">
+            <a href="authorization.html" class="btn btn-lg blue" style="float: right;">Я уже студент</a>
+        </div>
+        <div class="button_class">
+            <a href="main.html" class="btn btn-lg blue" style="float: right;">Я абитуриент</a>
+        </div>
+    </div>
+</div>
+
+<div class="slider-container">
+    <div class="slider-control left inactive"></div>
+    <div class="slider-control right"></div>
+    <ul class="slider-pagi" style="margin-bottom: 3%"></ul>
+    <div class="slider">
+        <div class="slide slide-0 active">
+            <div class="slide__bg"></div>
+            <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                    <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text">
+                    <h2 class="slide__text-heading">ИТИС</h2>
+                    <p class="slide__text-desc">Институт информационных технологий и интеллектуальных систем (ИТИС) -  инновационный ИТ-факультет основанный в 2011.
+                        ИТИС – это  подготовка высококвалифицированных кадров, повышение квалификации и профессиональная  переподготовка сотрудников предприятий в области ИТ.</p>
+               </div>
+            </div>
+        </div>
+        <div class="slide slide-1 ">
+            <div class="slide__bg"></div>
+            <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                    <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text">
+                    <h2 class="slide__text-heading">Что такое лаборатория?</h2>
+                    <p class="slide__text-desc">Лаборатория — реальное или виртуальное подразделение с прикрепленными студентами, работающими по тематике лаборатории, предлагающее студентам курсы по выбору и практику.</p>
+               </div>
+            </div>
+        </div>
+        <div class="slide slide-2">
+            <div class="slide__bg"></div>
+            <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                    <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text">
+                    <h2 class="slide__text-heading">Что такое курс по выбору?</h2>
+                    <p class="slide__text-desc">Курс по выбору — это один предмет, который выбирается из списка предложенных. Такой список предметов называется блоком. Для студента обязательно выбрать один предмет из каждого предложенного блока в семестре. Курсы по выбору могут быть самостоятельными дисциплинами, а могут быть предложенными лабораторией. </p>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide-3">
+            <div class="slide__bg"></div>
+            <div class="slide__content">
+                <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                    <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                </svg>
+                <div class="slide__text">
+                    <h2 class="slide__text-heading">Что такое практика?</h2>
+                    <p class="slide__text-desc">Практика — это активность студента по выполнению проектной работы в течение семестра (лаборатория) или летом (летняя практика).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="slider.js"></script>
+
+</body>
+</html>

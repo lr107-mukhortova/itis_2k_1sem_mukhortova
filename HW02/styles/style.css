@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background: #00b4ef;
+    font-family: 'Times', sans-serif;
+    font-weight: 400;
+    color: #595959;
+
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 10%;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+h4 {
+    text-align: left;
+}
+
+/* ------- Articles ------- */
+
+.line {
+    border-bottom: 2px solid #ABABAB; /* Параметры линии */
+    /*margin-left: 20px; !* Отступ слева *!*/
+    padding: 25px; /* Расстояние от линии до текста */
+
+}
+
+.line1 {
+    width: 100%;
+    height: 8px;
+    background-color: #16b5cb;
+}
+
+/* ------- Line2 ------- */
+.line2 {
+    width: 100%;
+    height: 8px;
+    background-color: #16b5cb;
+
+    margin-top: 100px;
+}
+
+.line3 {
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 3px;
+    background-color: #16B5CB;
+}
+
+.carousel-inner {
+    margin-top: 80px;
+    height: 490px;
+}
+
+.latest_news {
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.text_news {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 1235px;
+    Height: 808px;
+    border: 1px solid #9f9c9c;
+    border-radius: 20px;
+    background-color: #F7F7F7;;
+}
+
+.text_news2 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 1235px;
+    Height: 250px;
+}
+
+
+a.glo{
+    color:#00c6ff;
+    border-radius: 25px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    width:300px;
+    text-decoration:none;
+    text-align:center;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 200 18px tahoma;
+    border: 1px solid #00C6FF;
+}
+a.glo:hover {
+    background-position: 0 0;
+    color:#fff;
+}
